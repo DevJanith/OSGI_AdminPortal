@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Paymentmanagment
+Bundle-SymbolicName: com.adminportal.sa.osgi.paymentmanagment
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: ADMINPORTAL
+Automatic-Module-Name: com.adminportal.sa.osgi.paymentmanagment
+Bundle-RequiredExecutionEnvironment: JavaSE-15
