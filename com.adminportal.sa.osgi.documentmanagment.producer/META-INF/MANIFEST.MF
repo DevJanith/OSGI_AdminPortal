@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Producer
+Bundle-SymbolicName: com.adminportal.sa.osgi.documentmanagment.producer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adminportal.sa.osgi.documentmanagment.producer.Activator
+Bundle-Vendor: ADMINPORTAL
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: com.adminportal.sa.osgi.documentmanagment.producer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
