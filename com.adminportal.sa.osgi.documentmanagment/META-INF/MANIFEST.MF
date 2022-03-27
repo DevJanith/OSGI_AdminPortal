@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Documentmanagment
-Bundle-SymbolicName: com.adminportal.sa.osgi.documentmanagment
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: ADMINPORTAL
-Automatic-Module-Name: com.adminportal.sa.osgi.documentmanagment
-Bundle-RequiredExecutionEnvironment: JavaSE-15
