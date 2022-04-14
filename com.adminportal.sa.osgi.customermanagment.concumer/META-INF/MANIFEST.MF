@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Concumer
+Bundle-SymbolicName: com.adminportal.sa.osgi.customermanagment.concumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adminportal.sa.osgi.customermanagment.concumer.Activator
+Bundle-Vendor: ADMINPORTAL
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: com.adminportal.sa.osgi.customermanagment.concumer
+Import-Package: com.adminportal.sa.osgi.customermanagment.producer,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.3"
+Bundle-ActivationPolicy: lazy
