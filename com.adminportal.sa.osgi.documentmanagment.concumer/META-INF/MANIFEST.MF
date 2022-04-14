@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Concumer
+Bundle-SymbolicName: com.adminportal.sa.osgi.documentmanagment.concumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adminportal.sa.osgi.documentmanagment.concumer.Activator
+Bundle-Vendor: ADMINPORTAL
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: com.adminportal.sa.osgi.documentmanagment.concumer
+Import-Package: com.adminportal.sa.osgi.documentmanagment.producer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.osgi
