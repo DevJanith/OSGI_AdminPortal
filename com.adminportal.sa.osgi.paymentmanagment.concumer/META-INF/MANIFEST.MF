@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Payment_Concumer
+Bundle-SymbolicName: com.adminportal.sa.osgi.paymentmanagment.concumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.adminportal.sa.osgi.paymentmanagment.concumer.Activator
+Bundle-Vendor: ADMINPORTAL
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: com.adminportal.sa.osgi.paymentmanagment.concumer
+Import-Package: com.adminportal.sa.osgi.paymentmanagment.producer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.osgi
+
+
