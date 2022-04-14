@@ -26,6 +26,7 @@ public class Activator implements BundleActivator {
 //				m_context.createFilter("(&(objectClass=" + PaymentService.class.getName() + ")" + "(Language=*))"),
 //				null);
 //		m_tracker.open();
+		//push
 
 		System.out.println("Start Payment Managment Concumer Service");
 		serviceReference = context.getServiceReference(PaymentService.class.getName());
